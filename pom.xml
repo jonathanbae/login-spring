@@ -11,14 +11,18 @@
     <groupId>com.jonathanbae</groupId>
     <artifactId>login-spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Login Spring</name>
-    <description>Login Spring project for Spring Boot</description>
+    <name>login-spring</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
